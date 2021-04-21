@@ -38,16 +38,35 @@ section {
 
 header {
   margin: 2em;
+  text-transform: uppercase;
 }
 
 .logo {
   height: 75%;
 }
-.image {
+h1 {
+    text-transform: uppercase;
+    font-size: 2.3em;
+    letter-spacing: 0.35em;
+    margin: 1em 2em;
+    text-align: center;
 }
+.h1-split {
+  display: block;
+  font-weight: normal;
+}
+.h2-split {
+     color: #000;
+ }
 .textcontent {
   background-image: url(./images/bg-pattern-desktop.svg);
   background-size: cover;
+  
+}
+.text {
+    line-height: 1.3em;
+    text-align: center;
+    padding: 1em;
 }
 .attribution {
   font-size: 11px;
