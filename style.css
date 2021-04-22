@@ -64,14 +64,41 @@ h1 {
   
 }
 .text {
-    line-height: 1.3em;
+    line-height: 1.7em;
     text-align: center;
     padding: 1em;
 }
+
+.email {
+  display: flex;
+  margin-left: 20px;
+  }
+
+.email input {
+  padding-left: 30px;
+  width: 100%;
+  border: solid 1px var(--DesaturatedRed);
+  border-radius: 30px 0 0 30px ;
+  color: var(--DesaturatedRed);
+}
+::placeholder {
+  color: var(--DesaturatedRed);
+}
+
+button{
+  transform: translate(-2.5em);
+  background-image: var(--Gradient2);
+  min-width: 4.5em;
+  min-height: 3.5em;
+  border-radius: 30px;
+  border: none;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
