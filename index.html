@@ -32,11 +32,13 @@
           launch deals.
         </p>
         <p class="email">
-          <input type="email" placeholder="Email Address"/>
-          <button class="button" type="button">
-            <img src="./images/icon-arrow.svg" alt="Submit button" />
+          <input type="email" placeholder="Email Address" id="email"/>
+          <img src="/images/icon-error.svg" alt="Error" id="error">
+          <button class="button" type="button" id="submit_button">            
+            <img src="./images/icon-arrow.svg" alt="Submit button" id="submit-arrow" />
           </button>
         </p>
+        <p id="input-message">Please provide a valid email</p>
         <footer>
           <p class="attribution">
             Challenge by
@@ -45,9 +47,8 @@
             >. Coded by <a href="#">Steffan Hatlestad</a>.
           </p>
         </footer>
-      </div>
-      
-      
+      </div>      
     </section>
+    <script src="app.js"></script>
   </body>
 </html>
